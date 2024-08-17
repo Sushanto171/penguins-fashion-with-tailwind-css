@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin-Fashion-with-tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .font-roboto {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .font-bebas-neue {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+    </style>
+</head>
+<body class="font-roboto ">
+    <header class="bg-[#FFFBF0] ">
+        <!-- navbar start -->
+         <nav class="flex justify-between items-center px-12 py-4 md:px-20 ld:px-32">
+            <div class="w-60 md:w-72 ">
+                <img src="./Logo-Icon/Group 33072.png" alt="" class="max-w-full">
+            </div>
+            <div>
+                <ul class="  justify-between  font-medium hidden   md:flex gap-5">
+                    <li ><a href="#"></a>Home</li>
+                    <li><a href="#"></a>Product</li>
+                    <li><a href="#"></a>About Us</li>
+                    <li><a href="#"></a>Contact Us</li>
+                </ul>
+                <div class="lg:hidden md:hidden">
+                    <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                </a>
+                </div>
+            </div>
+         </nav>
+         <!-- banner start -->
+         <div class="md:flex justify-around items-center p-2">
+            <div class="md:ml-7">
+                <h2 class="font-bebas-neue text-7xl"><span class="text-[#FABE4C]">Be the penguins</span> <br><span class="text-[#363958]">Of winter</span></h2>
+                <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nihil.</p>
+                <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+            </div>
+            <div class=" md:max-w-96 overflow-hidden">
+                <img src="./Image/Mask Group.png" alt="" class="*:max-w-full -mt-36">
+            </div>
+         </div>
+        </header>
+        <!-- main section start -->
+         <main class="px-2 py-2 md:mx-20">
+            <!-- woman fashion section start -->
+             <section>
+                <h3 class="text-4xl font-bold my-3 pl-4 uppercase md:pl-5 md:text-5xl">Woman Fashion</h3>
+                <div class="md:grid grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="border rounded-2xl p-4 my-4">
+                        <div class=" border bg-gray-50 rounded-xl p-4 ">
+                            <img src="./Image/image 15.png" alt="" class="*:max-w-full block mx-auto h-96">
+                        </div>
+                        <h3 class="capitalize text-2xl my-4">Yellow jacket</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem?
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-lg font-bold text-orange-400">Price - $230</p>
+                            <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="border rounded-2xl p-4 my-4">
+                        <div class=" border bg-gray-50 rounded-xl p-4 ">
+                            <img src="./Image/PngItem_2597366 1.png" alt="" class="*:max-w-full block mx-auto h-96">
+                        </div>
+                        <h3 class="capitalize text-2xl my-4">Yellow jacket</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem?
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-lg font-bold text-orange-400">Price - $230</p>
+                            <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="border rounded-2xl p-4 my-4">
+                        <div class=" border bg-gray-50 rounded-xl p-4">
+                            <img src="./Image/SeekPng 1.png" alt="" class="*:max-w-full block mx-auto h-96">
+                        </div>
+                        <h3 class="capitalize text-2xl my-4">Yellow jacket</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem?
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-lg font-bold text-orange-400">Price - $230</p>
+                            <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <!-- woman  fashion section end-->
+              <!-- man fashion section start -->
+              <section>
+                <h3 class="text-4xl font-bold my-3 pl-4 uppercase md:pl-5 md:text-5xl">man Fashion</h3>
+                <div class="md:grid grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="border rounded-2xl p-4 my-4">
+                        <div class=" border bg-gray-50 rounded-xl p-4 ">
+                            <img src="./Image/image 11.png" alt="" class="*:max-w-full block mx-auto h-96">
+                        </div>
+                        <h3 class="capitalize text-2xl my-4">Yellow jacket</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem?
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-lg font-bold text-orange-400">Price - $230</p>
+                            <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="border rounded-2xl p-4 my-4">
+                        <div class=" border bg-gray-50 rounded-xl p-4 ">
+                            <img src="./Image/toppng 1.png" alt="" class="*:max-w-full block mx-auto h-96">
+                        </div>
+                        <h3 class="capitalize text-2xl my-4">Yellow jacket</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem?
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-lg font-bold text-orange-400">Price - $230</p>
+                            <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="border rounded-2xl p-4 my-4">
+                        <div class=" border bg-gray-50 rounded-xl p-4">
+                            <img src="./Image/vippng 1.png" alt="" class="*:max-w-full block mx-auto h-96">
+                        </div>
+                        <h3 class="capitalize text-2xl my-4">Yellow jacket</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptatem?
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-lg font-bold text-orange-400">Price - $230</p>
+                            <button class="text-white px-8 py-4 mt-4 bg-gradient-to-t from-[#A4BC46] to-[#85A019] rounded-md">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+             </section>
+              <!-- man fashion section end -->
+         </main>
+         <!-- footer section start -->
+          <footer>
+
+          </footer>
+</body>
+</html>
